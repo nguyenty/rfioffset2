@@ -1,0 +1,10 @@
+export(NBDev, PoisDev, QL.fit, QL.results)
+import(edgeR)
+
+#import(MASS)
+
+importFrom(Matrix, nearPD)
+
+importFrom(mgcv, negbin)
+
+#useDynLib(QuasiSeq, .registration=TRUE)
